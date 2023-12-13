@@ -4,7 +4,7 @@ app = flask.Flask(__name__, template_folder='./flask-environment/templates', sta
 
 @app.route('/')
 def home():
-    return flask.render_template('home.html')
+    return flask.render_template('homepage.html')
     
 if __name__ == '__main__':
     app.debug = True
